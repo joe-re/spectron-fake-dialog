@@ -1,0 +1,8 @@
+{
+  "name": "spectron-fake-dialog",
+  "version": "0.0.1",
+  "description": "Mock dialog module in your spectron's specs.",
+  "main": "index.js",
+  "author": "joe-re <joe.tialtngo@gmail.com>",
+  "license": "MIT"
+}
