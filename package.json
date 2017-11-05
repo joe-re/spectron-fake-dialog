@@ -4,5 +4,9 @@
   "description": "Mock dialog module in your spectron's specs.",
   "main": "index.js",
   "author": "joe-re <joe.tialtngo@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.7.9",
+    "spectron": "^3.7.2"
+  }
 }
