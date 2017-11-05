@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+  </head>
+  <body>
+    <script>
+      const { ipcRenderer } = require('electron');
+      function showOpenDialog() {
+        const files = ipcRenderer.sendSync('show-open-dialog');
+        document.querySelector('#return-value').innerText = JSON.stringify(files);
+      }
+    </script>
+    <button id="show-open-dialog-button" onclick="showOpenDialog()">Show Open Dialog</button>
+    <div id ="return-value"></div>
+  </body>
+</html>

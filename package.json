@@ -3,10 +3,14 @@
   "version": "0.0.1",
   "description": "Mock dialog module in your spectron's specs.",
   "main": "index.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
   "author": "joe-re <joe.tialtngo@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "electron": "^1.7.9",
+    "mocha": "^4.0.1",
     "spectron": "^3.7.2"
   }
 }
