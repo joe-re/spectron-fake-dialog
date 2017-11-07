@@ -49,9 +49,9 @@ describe('mock showOpenDialog', function() {
 
 initialize spectronFakeDialog
 
-### #mock(params: Array<{ method: stering, value: Object }>)
+### #mock(params: Array<{ method: stering, value: any }>)
 
-NOTE: mock must call after Electron app started.
+NOTE: You must call this after Electron app started.
 
 - method: dialog module's method name. ex) showOpenDialog, showSaveDialog...
 - value: mocked method return value.
